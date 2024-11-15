@@ -34,15 +34,15 @@ pipeline {
 			//}
    //	}
    
-   stage('build && SonarQube analysis') {
-           steps {
-               withSonarQubeEnv('sonarqube') {
+   // stage('build && SonarQube analysis') {
+   //         steps {
+   //             withSonarQubeEnv('sonarqube') {
                  
-                       sh 'mvn sonar:sonar'
+   //                     sh 'mvn sonar:sonar'
                  
-               }
-           }
-       } 
+   //             }
+   //         }
+   //     } 
  
    
 	
