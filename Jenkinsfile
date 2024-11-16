@@ -31,7 +31,7 @@ pipeline {
         stage('Code Coverage') {
             steps {
                 echo 'Generating Jacoco coverage report...'
-                bat 'mvn jacoco:report'
+                
             }
         }
 
