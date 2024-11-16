@@ -19,11 +19,11 @@ pipeline {
 	      
       		}
   	}
-	// stage('Jacoco Coverage Report') {
- //       	steps{
- //           		jacoco()
-	// 	}
-	// }      
+	stage('Jacoco Coverage Report') {
+       	steps{
+           		jacoco()
+		}
+	}      
      
      
      //stage('SonarQube'){
